@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="core">
+      <UniqueIdentifier>{e4fa0ed0-9c1a-48ed-aa1f-80a02bc9eb14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform">
+      <UniqueIdentifier>{fa941ad3-fd65-4e45-95be-e1de8a7e048f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{06c3d530-46be-41a5-a2b9-c36c785ae485}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function">
+      <UniqueIdentifier>{209498cb-e1ab-4722-be9c-79b5757452ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\Render">
+      <UniqueIdentifier>{2fd6977f-2e33-43c1-b402-f62ca3026652}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Graphics.h">
+      <Filter>function\Render</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>function\Render</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
