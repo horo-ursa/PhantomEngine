@@ -13,18 +13,116 @@
     <Filter Include="function">
       <UniqueIdentifier>{209498cb-e1ab-4722-be9c-79b5757452ed}</UniqueIdentifier>
     </Filter>
-    <Filter Include="function\Render">
+    <Filter Include="resource\AssetManager">
+      <UniqueIdentifier>{2f502e2f-b227-4c99-b07b-d6bfa8b1928a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\math">
+      <UniqueIdentifier>{5ae05767-7d4d-45ba-93c7-2329c77b7902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\debug">
+      <UniqueIdentifier>{475a14bb-043f-47f3-bad8-c3ad2153bf01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\color">
+      <UniqueIdentifier>{49ad3afc-8245-4599-bf9f-f09d975895df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\physics">
+      <UniqueIdentifier>{08d942eb-af91-44c7-831f-e929eaa281fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\render">
       <UniqueIdentifier>{2fd6977f-2e33-43c1-b402-f62ca3026652}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\input">
+      <UniqueIdentifier>{18fdb1c8-034b-4b59-ad54-f93b21a9ec71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\animation">
+      <UniqueIdentifier>{292a1912-5f80-4ce7-9771-f1a6d2cf2560}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\framework">
+      <UniqueIdentifier>{65901b1a-8bfb-4622-af55-45ca50720c9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\framework\component">
+      <UniqueIdentifier>{c47aafd4-30e6-4e4a-a479-195531bc8c37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\framework\world">
+      <UniqueIdentifier>{9961c972-13c1-4eaa-bcce-67ed1674e4d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\framework\object">
+      <UniqueIdentifier>{7424954b-645c-4a3b-9c67-05ee9e0d7a94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\framework\level">
+      <UniqueIdentifier>{3fe9bcb0-1397-47d1-a56a-0e462ced66a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\file">
+      <UniqueIdentifier>{d8e41fb6-8188-4768-8a4d-7caf2a3f86d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\path">
+      <UniqueIdentifier>{9ba0199c-7bd7-4811-89b0-0eb6aae55285}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\render\shaders">
+      <UniqueIdentifier>{a91069b2-4dbf-4636-8280-db3291f54f97}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Graphics.h">
-      <Filter>function\Render</Filter>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="function\render\Graphics.h">
+      <Filter>function\render</Filter>
+    </ClInclude>
+    <ClInclude Include="function\render\HelloTriangle.h">
+      <Filter>function\render</Filter>
+    </ClInclude>
+    <ClInclude Include="function\render\Shader.h">
+      <Filter>function\render</Filter>
+    </ClInclude>
+    <ClInclude Include="function\render\Texture.h">
+      <Filter>function\render</Filter>
+    </ClInclude>
+    <ClInclude Include="resource\assetmanager\assetCache.h">
+      <Filter>resource\AssetManager</Filter>
+    </ClInclude>
+    <ClInclude Include="resource\assetmanager\assetManager.h">
+      <Filter>resource\AssetManager</Filter>
+    </ClInclude>
+    <ClInclude Include="core\math\engineMath.h">
+      <Filter>core\math</Filter>
+    </ClInclude>
+    <ClInclude Include="core\math\simdMath.h">
+      <Filter>core\math</Filter>
+    </ClInclude>
+    <ClInclude Include="function\render\vertexformat.h">
+      <Filter>function\render</Filter>
+    </ClInclude>
+    <ClInclude Include="core\color\color.h">
+      <Filter>core\color</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Graphics.cpp">
-      <Filter>function\Render</Filter>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="function\render\Graphics.cpp">
+      <Filter>function\render</Filter>
     </ClCompile>
+    <ClCompile Include="function\render\HelloTriangle.cpp">
+      <Filter>function\render</Filter>
+    </ClCompile>
+    <ClCompile Include="function\render\Shader.cpp">
+      <Filter>function\render</Filter>
+    </ClCompile>
+    <ClCompile Include="function\render\Texture.cpp">
+      <Filter>function\render</Filter>
+    </ClCompile>
+    <ClCompile Include="resource\assetmanager\assetManager.cpp">
+      <Filter>resource\AssetManager</Filter>
+    </ClCompile>
+    <ClCompile Include="core\math\engineMath.cpp">
+      <Filter>core\math</Filter>
+    </ClCompile>
+    <ClCompile Include="core\math\simdMath.cpp">
+      <Filter>core\math</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="function\render\shaders\simple.hlsl">
+      <Filter>function\render\shaders</Filter>
+    </FxCompile>
   </ItemGroup>
 </Project>
